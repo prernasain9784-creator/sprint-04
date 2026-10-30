@@ -43,13 +43,8 @@ let tipInterval = null;
 
 // Determine backend API base URL
 function getApiBaseUrl() {
-    // If the page itself is served on port 3000, use relative paths
-    if (window.location.port === "3000") {
-        return "";
-    }
-    // If accessed via Live Server (e.g. port 5500), Vite, or file://, target localhost:3000
-    const host = window.location.hostname || "localhost";
-    return `http://${host}:3000`;
+    return "https://sprint-04-wrko.onrender.com";
+";
 }
 
 // Check Backend Health
