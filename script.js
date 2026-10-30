@@ -44,7 +44,7 @@ let tipInterval = null;
 // Determine backend API base URL
 function getApiBaseUrl() {
     return "https://sprint-04-wrko.onrender.com";
-";
+
 }
 
 // Check Backend Health
